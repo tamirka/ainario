@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineGen AI: AI Video Generator for Logos, Storyboards & YouTube</title>
+    <meta
+      name="description"
+      content="Create professional AI-generated videos with CineGen. Our AI film studio helps you produce stunning logo animations, cinematic storyboards, YouTube intros, and more with unparalleled style consistency."
+    />
+    <meta
+      name="keywords"
+      content="AI video generator, logo animation, motion graphics, storyboard creator, youtube intro maker, AI film studio, video generation, text to video"
+    />
+
+    <!-- Google AdSense script placeholder -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/page/v2/js/adsbygoogle.js?client=ca-pub-YOUR_CLIENT_ID" crossorigin="anonymous"></script> -->
+
+    <!-- Google tag (gtag.js) -->
+    <!-- IMPORTANT: Replace G-XXXXXXXXXX with your Google Analytics Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      // IMPORTANT: Replace G-XXXXXXXXXX with your Google Analytics Measurement ID
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CineGen AI: Your AI Film Studio",
+        "description": "From storyboard to screen. A specialized AI film production suite that brings your vision to life with professional consistency and credit-saving efficiency.",
+        "url": "https://aistudio.google.com/stories/cinegen-ai-your-ai-film-studio",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0"
+        }
+      }
+    </script>
+
+    <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.9.0",
+    "@tailwindcss/browser": "https://esm.sh/@tailwindcss/browser@^4.1.10"
+  }
+}
+</script>
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.3s ease-out;
+      }
+      /* For aspect ratio plugin functionality */
+      .aspect-w-16 { --tw-aspect-w: 16; }
+      .aspect-h-9 { --tw-aspect-h: 9; }
+      .aspect-h-9 { position: relative; padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%); }
+      .aspect-w-16 > *,
+      .aspect-h-9 > * { position: absolute; height: 100%; width: 100%; top: 0; right: 0; bottom: 0; left: 0; }
+    </style>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
